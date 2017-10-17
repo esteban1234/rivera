@@ -31,7 +31,7 @@
 <strong>Correo:</strong> <a href="mailto:info@contructoralarivera.com"> info@contructoralarivera.com</a><br><br>
 <strong>Teléfono:</strong> PENDIENTE <br><br>
 <strong>Horario:</strong> Lunes a Viernes de 9 am a 6 pm <br><br>
-<strong>Dirección:</strong> PENDIENTE 
+<strong>Dirección:</strong> C. 7-A #279-E POR 38 Y 40. <br> COL. CAMPESTRE, MERIDA, YUCATAN. <br> C.P. 97120 
 </address>
 </div>
     
@@ -56,6 +56,10 @@
 </form>
 </div>
 </div>
+</div>
+
+<div class="mapa">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.55886701894!2d-89.62201568589252!3d21.0103129860084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a5f0bd43db%3A0xa172771e0ff815fc!2sCalle+7A+279D%2C+Campestre%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1508281894838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <a class="go-top" href="#">Subir</a>
