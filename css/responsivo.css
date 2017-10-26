@@ -1,0 +1,806 @@
+@media screen and (max-width: 480px){
+
+	/************DISEÑO INDEX*************/
+	.contenedor{
+		width: 100%;
+		margin: auto;
+	}
+
+	.logo{
+		float: none !important;
+		margin: auto;
+		width: 40%;
+	}
+	
+
+	.textoheader{
+		float: none !important;
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.nav{
+		display: none;
+	}
+
+	.nav ul a{
+		display: block;
+		padding: 0px;
+		font-size: 18px;
+		font-weight: 700;
+		border-bottom:.5px solid rgba(0,0,0,0.1);
+	}
+
+	.op-menu{
+		position: absolute;
+		top: 30px;
+		left: 25px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .fondo, .banner2, .fondo2{
+		height: 100%;
+	}
+
+	.fondo p{
+		width: 95%;
+		font-size: 18px;
+	}
+
+	.boton{
+		width: 70%;
+	}
+
+	.boton a button{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.derecha, .izquierda{
+		width: 100%;
+		margin:auto;
+	}
+
+	.texto{
+		font-family: arial;
+		font-size: 16px;
+	}
+
+	.business-card h1{
+		font-size: 20px;
+	}
+
+	.business-card span{
+		vertical-align: middle;
+	}
+
+	.business-card span i{
+		font-size:50px;
+	}
+	
+
+	.fondo2 h1{
+		font-size: 26px;
+	}
+	
+
+	.fondo2 p{
+		text-align: justify;
+		width: 92%;
+		font-size: 16px;
+	}
+
+	/************END DISEÑO INDEX*********/
+	
+	
+
+	/************DISEÑO NOSOTROS*************/
+	.img-nos{
+		height: 200px;
+		width: 100%;
+		border-radius: 10px;
+
+	}
+
+	.tit-der{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.tit-mvv{
+		text-align: center;
+	}
+
+	.txt-mv, .txt-eps{
+		text-align: justify !important;
+	}
+	
+	.txt-eps{
+		margin-bottom: 20px !important;
+	}
+
+	.txt-v{
+		text-align: center;
+		float: none !important;
+	}
+
+
+	.alinear{
+		text-align: center;
+	}
+
+	.icono, .tit-eps{
+		display: inline-block;
+	}
+	/************END DISEÑO NOSOTROS*********/
+
+	/************DISEÑO SERVICIOS*************/
+	.tit-rec{
+		display: none;
+	}
+
+	.imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6{
+		border-radius: 10px;
+		height: 200px;
+		margin: auto;
+	}
+
+	.tit-chocic{
+		font-size: 22px;
+		font-weight: bold;
+	}
+	/************END DISEÑO SERVICIOS*********/
+
+	/************DISEÑO CONTACTO*************/
+	.tit{
+		font-size: 18px;
+	}
+
+	.contenedor br{
+		display: none;
+	}
+
+	.h3-contacto{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	address{
+		text-align: center;
+	}
+
+	address br{
+		display: block !important;
+		margin: 2px 0px;
+	}
+
+	address .br-oculta{
+		display: none !important;
+	}
+
+	.btn-envia{
+		float: none !important;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+
+	.form-group{
+		text-align: center;
+	}
+	/************END DISEÑO CONTACTO*********/
+
+	/************DISEÑO FOOTER*************/
+
+	footer, .conten, .fondo, .banner3{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	/************END DISEÑO FOOTER*********/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+		/************DISEÑO INDEX*************/
+	.contenedor{
+		width: 100%;
+		margin: auto;
+	}
+
+	.logo{
+		float: none !important;
+		margin: auto;
+		width: 40%;
+	}
+	
+
+	.textoheader{
+		float: none !important;
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.nav{
+		display: none;
+	}
+
+	.nav ul a{
+		display: block;
+		padding: 0px;
+		font-size: 18px;
+		font-weight: 700;
+		border-bottom:.5px solid rgba(0,0,0,0.1);
+	}
+
+	.op-menu{
+		position: absolute;
+		top: 30px;
+		left: 25px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .fondo, .banner2, .fondo2{
+		height: 100%;
+	}
+
+	.fondo p{
+		width: 95%;
+		font-size: 18px;
+	}
+
+	.boton{
+		width: 70%;
+	}
+
+	.boton a button{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.derecha, .izquierda{
+		width: 100%;
+		margin:auto;
+	}
+
+	.texto{
+		font-family: arial;
+		font-size: 16px;
+	}
+
+	.business-card h1{
+		font-size: 20px;
+	}
+
+	.business-card span{
+		vertical-align: middle;
+	}
+
+	.business-card span i{
+		font-size:50px;
+	}
+	
+
+	.fondo2 h1{
+		font-size: 26px;
+	}
+	
+
+	.fondo2 p{
+		text-align: justify;
+		width: 92%;
+		font-size: 16px;
+	}
+
+	/************END DISEÑO INDEX*********/
+	
+	
+
+	/************DISEÑO NOSOTROS*************/
+	.img-nos{
+		height: 200px;
+		width: 100%;
+		border-radius: 10px;
+
+	}
+
+	.tit-der{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.tit-mvv{
+		text-align: center;
+	}
+
+	.txt-mv, .txt-eps{
+		text-align: justify !important;
+	}
+	
+	.txt-eps{
+		margin-bottom: 20px !important;
+	}
+
+	.txt-v{
+		text-align: center;
+		float: none !important;
+	}
+
+
+	.alinear{
+		text-align: center;
+	}
+
+	.icono, .tit-eps{
+		display: inline-block;
+	}
+	/************END DISEÑO NOSOTROS*********/
+
+	/************DISEÑO SERVICIOS*************/
+	.tit-rec{
+		display: none;
+	}
+
+	.imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6{
+		border-radius: 10px;
+		height: 200px;
+		margin: auto;
+	}
+
+	.tit-chocic{
+		font-size: 22px;
+		font-weight: bold;
+	}
+	/************END DISEÑO SERVICIOS*********/
+
+	/************DISEÑO CONTACTO*************/
+	.tit{
+		font-size: 18px;
+	}
+
+	.contenedor br{
+		display: none;
+	}
+
+	.h3-contacto{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	address{
+		text-align: center;
+	}
+
+	address br{
+		display: block !important;
+		margin: 2px 0px;
+	}
+
+	address .br-oculta{
+		display: none !important;
+	}
+
+	.btn-envia{
+		float: none !important;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+
+	.form-group{
+		text-align: center;
+	}
+	/************END DISEÑO CONTACTO*********/
+
+	/************DISEÑO FOOTER*************/
+
+	footer, .conten, .fondo, .banner3{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	/************END DISEÑO FOOTER*********/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/************DISEÑO INDEX*************/
+	.contenedor{
+		width: 100%;
+		margin: auto;
+	}
+
+	.logo{
+		float: none !important;
+		margin: auto;
+		width: 40%;
+	}
+	
+
+	.textoheader{
+		float: none !important;
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.nav{
+		display: none;
+	}
+
+	.nav ul a{
+		display: block;
+		padding: 0px;
+		font-size: 18px;
+		font-weight: 700;
+		border-bottom:.5px solid rgba(0,0,0,0.1);
+	}
+
+	.op-menu{
+		position: absolute;
+		top: 30px;
+		left: 25px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .fondo, .banner2, .fondo2{
+		height: 100%;
+	}
+
+	.fondo p{
+		width: 95%;
+		font-size: 18px;
+	}
+
+
+
+	.boton a button{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.derecha, .izquierda{
+		width: 100%;
+		margin:auto;
+	}
+
+	.texto{
+		font-family: arial;
+		font-size: 16px;
+	}
+
+	.business-card h1{
+		font-size: 20px;
+	}
+
+	.business-card span{
+		vertical-align: middle;
+	}
+
+	.business-card span i{
+		font-size:50px;
+	}
+	
+
+	.fondo2 h1{
+		font-size: 26px;
+	}
+	
+
+	.fondo2 p{
+		text-align: justify;
+		width: 92%;
+		font-size: 16px;
+	}
+
+	/************END DISEÑO INDEX*********/
+	
+	
+
+	/************DISEÑO NOSOTROS*************/
+	.img-nos{
+		height: 250px;
+		margin: auto;
+		width: 85%;
+		border-radius: 10px;
+
+	}
+
+	.tit-der{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.tit-mvv{
+		text-align: center;
+	}
+
+	.txt-mv, .txt-eps{
+		text-align: justify !important;
+	}
+	
+	.txt-eps{
+		margin-bottom: 20px !important;
+	}
+
+	.txt-v{
+		text-align: center;
+		float: none !important;
+	}
+
+
+	.alinear{
+		text-align: center;
+	}
+
+	.icono, .tit-eps{
+		display: inline-block;
+	}
+
+	/************END DISEÑO NOSOTROS*********/
+
+	/************DISEÑO SERVICIOS*************/
+	.tit-rec{
+		display: none;
+	}
+
+	.imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6{
+		border-radius: 10px;
+		/*height: 200px;*/
+		width: 85%;
+		margin: auto;
+	}
+
+	.tit-chocic{
+		font-size: 22px;
+		font-weight: bold;
+	}
+	/************END DISEÑO SERVICIOS*********/
+
+	/************DISEÑO CONTACTO*************/
+	.tit{
+		font-size: 18px;
+	}
+
+	.contenedor br{
+		display: none;
+	}
+
+	.h3-contacto{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	address{
+		text-align: center;
+	}
+
+	address br{
+		display: block !important;
+		margin: 2px 0px;
+	}
+
+	address .br-oculta{
+		display: none !important;
+	}
+
+	.btn-envia{
+		float: none !important;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+
+	.form-group{
+		text-align: center;
+	}
+	/************END DISEÑO CONTACTO*********/
+
+	/************DISEÑO FOOTER*************/
+
+	footer, .conten, .fondo, .banner3{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	/************END DISEÑO FOOTER*********/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+		/************DISEÑO INDEX*************/
+	.contenedor{
+		width: 100%;
+		margin: auto;
+	}
+
+	.logo{
+		float: none !important;
+		margin: auto;
+		width: 25%;
+	}
+	
+
+	.textoheader{
+		float: none !important;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+
+	.banner, .fondo, .banner2, .fondo2{
+		height: 100%;
+	}
+
+	.fondo p{
+		width: 95%;
+		font-size: 25px;
+	}
+
+
+	.boton a button{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.texto{
+		font-family: arial;
+		font-size: 16px;
+	}
+
+	.business-card h1{
+		font-size: 20px;
+	}
+
+	.business-card span{
+		vertical-align: middle;
+	}
+
+	.business-card span i{
+		font-size:50px;
+	}
+	
+
+	.fondo2 h1{
+		font-size: 26px;
+	}
+	
+
+	.fondo2 p{
+		text-align: justify;
+		width: 92%;
+	}
+
+	/************END DISEÑO INDEX*********/
+	
+	
+
+	/************DISEÑO NOSOTROS*************/
+	.img-nos{
+		height: 250px;
+		margin: auto;
+		width: 85%;
+		border-radius: 10px;
+
+	}
+
+	.tit-mvv{
+		text-align: center;
+	}
+
+	.txt-mv, .txt-eps{
+		text-align: justify !important;
+	}
+	
+	.txt-eps{
+		margin-bottom: 20px !important;
+	}
+
+	.txt-v{
+		text-align: center;
+		float: none !important;
+	}
+
+
+	.alinear{
+		text-align: center;
+	}
+
+	.icono, .tit-eps{
+		display: inline-block;
+	}
+
+	/************END DISEÑO NOSOTROS*********/
+
+	/************DISEÑO SERVICIOS*************/
+	.tit-rec{
+		display: none;
+	}
+
+	.imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6{
+		border-radius: 10px;
+		/*height: 200px;*/
+		width: 85%;
+		margin: auto;
+	}
+
+	.tit-chocic{
+		font-size: 22px;
+		font-weight: bold;
+	}
+	/************END DISEÑO SERVICIOS*********/
+
+	/************DISEÑO CONTACTO*************/
+
+	.contenedor br{
+		display: none;
+	}
+
+	.h3-contacto{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	address{
+		text-align: center;
+	}
+
+	address br{
+		display: block !important;
+		margin: 2px 0px;
+	}
+
+	address .br-oculta{
+		display: none !important;
+	}
+
+	.btn-envia{
+		float: none !important;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+
+	.form-group{
+		text-align: center;
+	}
+	/************END DISEÑO CONTACTO*********/
+
+	/************DISEÑO FOOTER*************/
+
+	footer, .conten, .fondo, .banner3{
+		height: 100%;
+	}
+
+	/************END DISEÑO FOOTER*********/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+	.contenedor{
+		width: 90%;
+	}
+	
+
+	.txt-eps{
+		text-align: justify !important;
+	}
+
+	footer, .conten, .fondo, .banner3{
+		height: 100%;
+	}
+	
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

@@ -3,6 +3,9 @@
 <body>
 	
   <div class="contenedor">
+    <div class="op-menu">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
     <div class="container">
       <figure class="logo pull-left">
         <img src="../img/rivera.png" alt="La Rivera" class="img-responsive">
@@ -24,35 +27,36 @@
 
       <div class="container">
 <div class="row">
-<div class="col-sm-4 text-right">
-<h3>Formulario de contacto</h3>
+<div class="col-xs-12 col-sm-4 col-md-4 text-right">
+<h3 class="h3-contacto">Formulario de contacto</h3>
 <hr>
 <address>
 <strong>Correo:</strong> <a href="mailto:info@contructoralarivera.com"> info@contructoralarivera.com</a><br><br>
 <strong>Teléfono:</strong> PENDIENTE <br><br>
 <strong>Horario:</strong> Lunes a Viernes de 9 am a 6 pm <br><br>
-<strong>Dirección:</strong> C. 7-A #279-E POR 38 Y 40. <br> COL. CAMPESTRE, MERIDA, YUCATAN. <br> C.P. 97120 
+<strong>Dirección:</strong> C. 7-A #279-E POR 38 Y 40. <br class="br-oculta"> COL. CAMPESTRE, MERIDA, YUCATAN. <br class="br-oculta"> C.P. 97120 
 </address>
 </div>
     
-<div class="col-sm-8 contact-form">
-<form id="contact" method="post" class="form" role="form">
+<div class="col-sm-8 col-md-8 contact-form">
+<form id="contact" class="form" role="form" onSubmit="return false">
 <div class="row">
-<div class=" col-md-4 form-group">
-<input class="form-control" id="name" name="name" placeholder="Escribe tu nombre completo" type="text" required />
+<div class=" col-md-12 col-lg-4 form-group">
+<input class="form-control" id="txtNOMBRE" name="name" placeholder="Escribe tu nombre completo" type="text" required />
 </div>
-<div class=" col-md-4 form-group">
-<input class="form-control" id="name" name="name" placeholder="Escribe tu número teléfonico" type="text" required/>
+<div class=" col-md-12 col-lg-4 form-group">
+<input class="form-control" id="txtTELEFONO" name="name" placeholder="Escribe tu número teléfonico" type="text" required/>
 </div>
-<div class=" col-md-4 form-group">
-<input class="form-control" id="email" name="email" placeholder="Escribe tu correo" type="email" required />
+<div class=" col-md-12 col-lg-4 form-group">
+<input class="form-control" id="txtCORREO" name="email" placeholder="Escribe tu correo" type="email" required />
 </div>
 </div>
-<textarea class="form-control" id="message" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
+<textarea class="form-control" id="txtCOMENTARIO" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
 <br />
+<div id="_AJAX_PRE_" class="col-xs-12 col-lg-12"></div>
 <div class="row">
 <div class="col-xs-12 col-md-12 form-group">
-<button class="btn btn-warning pull-right" type="submit">Enviar</button>
+<button class="btn btn-warning pull-right btn-envia" onclick="sendCORREO()">Enviar</button>
 </form>
 </div>
 </div>
@@ -67,9 +71,11 @@
 </div>
 
 <script src="../js/jquery.js"></script>
+<script src="../js/sendCORREO.js"></script>
 <script src="../js/menu.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/arriba.js"></script>
-<script src="../js/contacto.js"></script>
+<!-- <script src="../js/contacto.js"></script> -->
+
 </body>
 </html>

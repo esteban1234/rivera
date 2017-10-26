@@ -3,6 +3,9 @@
 <body>
 
   <div class="contenedor">
+    <div class="op-menu">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
     <div class="container">
       <figure class="logo pull-left">
         <img src="img/rivera.png" alt="La Rivera" class="img-responsive">
@@ -23,8 +26,8 @@
         <p>DESARROLLANDO PROYECTOS DE ALTA CAPACITACIÓN TECNOLÓGICA</p>
 
         <div class="boton" style="margin-bottom: 5%; margin-top: 5%;">
-      <a href="vistas/contacto.php" style="text-decoration: none;"><button type="button" class="btn btn-warning btn-lg btn-block">CONTACTANOS</button></a>
-    </div>
+          <a href="vistas/contacto.php" style="text-decoration: none;"><button type="button" class="btn btn-warning btn-lg btn-block">CONTACTANOS</button></a>
+        </div>
       </div>
     </div>
 
@@ -36,17 +39,17 @@
         En el medio de la construcción somos reconocidos por el compromiso que tenemos con la calidad, seguridad y salud de nuestros empleados, el cuidado y respeto al medio ambiente, así como nuestra contribución al entorno socio económico en el que nos desenvolvemos.</p>
       </div>
       <div class="pull-right izquierda">
-        <div class="col-md-12">
+        <div class="col-xs-12 col-md-12">
             <div class="business-card">
                 <h1 class="pull-left">Medio Ambiente</h1> <span class="pull-right"><i class="fa fa-leaf fa-5x" aria-hidden="true"></i></span>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-xs-12 col-md-12">
             <div class="business-card">
                 <h1 class="pull-left">Gestión Integral</h1> <span class="pull-right"><i class="fa fa-cogs fa-5x" aria-hidden="true"></i></span>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-xs-12 col-md-12">
             <div class="business-card">
                 <h1 class="pull-left">Infraestructuras</h1> <span class="pull-right"><i class="fa fa-building-o fa-5x" aria-hidden="true"></i></span>
             </div>

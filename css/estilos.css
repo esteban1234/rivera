@@ -82,6 +82,11 @@ e* {
 	color: #DEDD10;
 	background-color: #fef9e7;
 }
+
+.op-menu{
+    display: none;
+}
+
 #select{
 	color: #DEDD10;
 	background-color: #fef9e7;
